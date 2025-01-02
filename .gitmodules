@@ -1,0 +1,6 @@
+[submodule "Assets/HTFramework"]
+	path = Assets/HTFramework
+	url = https://gitee.com/SaiTingHu/HTFramework.git
+[submodule "Assets/HTFrameworkDeployment"]
+	path = Assets/HTFrameworkDeployment
+	url = https://github.com/SaiTingHu/HTFrameworkDeployment.git
