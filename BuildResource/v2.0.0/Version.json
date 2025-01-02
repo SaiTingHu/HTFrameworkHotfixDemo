@@ -1,14 +1,14 @@
 
 {
-    "Version" : "v1.0.0",
+    "Version" : "v2.0.0",
     "Date"    : "2025.01.02",
     "Metadatas" : [
     ],
     "Assemblys" : [
         {
             "Name" : "HotfixDemo",
-            "CRC"  : "F415FCF25C8063F9A8390018E1EDE281",
-            "Size" : 7
+            "CRC"  : "4750D21D78BF3D09DC5FB8B1701B26A2",
+            "Size" : 8
         }
     ],
     "ABs"       : [

@@ -268,8 +268,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4130889445131381346, guid: e2ae0e67007bfa840bddd92df8b33f98, type: 3}
+      propertyPath: BuildVersion
+      value: v2.0.0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4130889445131381346, guid: e2ae0e67007bfa840bddd92df8b33f98, type: 3}
       propertyPath: RemoteResourcePath
-      value: https://gitee.com/SaiTingHu/HTFrameworkHotfixDemo/tree/master/CDN/
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5657773955609241913, guid: e2ae0e67007bfa840bddd92df8b33f98, type: 3}
       propertyPath: m_Name
@@ -332,13 +336,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114017263505648020, guid: d09e5ea50d2aa0841ab072ac17fbd207, type: 3}
+      propertyPath: Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114017263505648020, guid: d09e5ea50d2aa0841ab072ac17fbd207, type: 3}
+      propertyPath: IsLogDetail
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114017263505648020, guid: d09e5ea50d2aa0841ab072ac17fbd207, type: 3}
+      propertyPath: IsEditorMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114017263505648020, guid: d09e5ea50d2aa0841ab072ac17fbd207, type: 3}
+      propertyPath: AssetBundleManifestName
+      value: StandaloneWindows
+      objectReference: {fileID: 0}
     - target: {fileID: 114242888237750402, guid: d09e5ea50d2aa0841ab072ac17fbd207, type: 3}
       propertyPath: IsOfflineState
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114482348189991706, guid: d09e5ea50d2aa0841ab072ac17fbd207, type: 3}
       propertyPath: DefaultProcedure
-      value: HT.Framework.Demo.Hotfix.LoginProcedure
+      value: HotfixDemo.LoginProcedure
       objectReference: {fileID: 0}
     - target: {fileID: 114482348189991706, guid: d09e5ea50d2aa0841ab072ac17fbd207, type: 3}
       propertyPath: ActivatedProcedures.Array.size
@@ -346,15 +366,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114482348189991706, guid: d09e5ea50d2aa0841ab072ac17fbd207, type: 3}
       propertyPath: ActivatedProcedures.Array.data[0]
-      value: HT.Framework.Demo.Hotfix.LoginProcedure
+      value: HotfixDemo.LoginProcedure
       objectReference: {fileID: 0}
     - target: {fileID: 114482348189991706, guid: d09e5ea50d2aa0841ab072ac17fbd207, type: 3}
       propertyPath: ActivatedProcedures.Array.data[1]
-      value: HT.Framework.Demo.Hotfix.ChooseProcedure
+      value: HotfixDemo.ChooseProcedure
       objectReference: {fileID: 0}
     - target: {fileID: 114482348189991706, guid: d09e5ea50d2aa0841ab072ac17fbd207, type: 3}
       propertyPath: ActivatedProcedures.Array.data[2]
-      value: HT.Framework.Demo.Hotfix.GameProcedure
+      value: HotfixDemo.GameProcedure
+      objectReference: {fileID: 0}
+    - target: {fileID: 114872231495406314, guid: d09e5ea50d2aa0841ab072ac17fbd207, type: 3}
+      propertyPath: _version
+      value: 0.5.0
       objectReference: {fileID: 0}
     - target: {fileID: 114872231495406314, guid: d09e5ea50d2aa0841ab072ac17fbd207, type: 3}
       propertyPath: HotfixAssemblyNames.Array.size

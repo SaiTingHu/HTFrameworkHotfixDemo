@@ -1,4 +1,6 @@
-namespace HT.Framework.HotfixDemo
+using HT.Framework;
+
+namespace HotfixDemo
 {
     /// <summary>
     /// 选择流程

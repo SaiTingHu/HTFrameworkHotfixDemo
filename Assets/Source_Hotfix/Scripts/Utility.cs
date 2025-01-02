@@ -1,4 +1,6 @@
-namespace HT.Framework.HotfixDemo
+using HT.Framework;
+
+namespace HotfixDemo
 {
     public static class Utility
     {

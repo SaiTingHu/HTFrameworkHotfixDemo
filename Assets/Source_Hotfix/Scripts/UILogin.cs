@@ -1,7 +1,8 @@
+using HT.Framework;
 using HT.Framework.Deployment;
 using UnityEngine.UI;
 
-namespace HT.Framework.HotfixDemo
+namespace HotfixDemo
 {
     /// <summary>
     /// 登录界面
@@ -9,6 +10,8 @@ namespace HT.Framework.HotfixDemo
     [UIResource("ui", "Assets/Source_Hotfix/Prefabs/LoginPanel.prefab", "LoginPanel")]
     public class UILogin : UILogicResident
     {
+        protected override bool IsAutomate => false;
+
         /// <summary>
         /// 初始化
         /// </summary>
@@ -24,6 +27,7 @@ namespace HT.Framework.HotfixDemo
             base.OnOpen(args);
 
             UIEntity.FindChildren("Txt_Version").GetComponent<Text>().text = "当前资源版本：" + DeploymentConfig.Current.LocalVersion.Version;
+            UIEntity.FindChildren("LoginButton/Text").GetComponent<Text>().text = "登录 v2.0.0";
         }
 
         private void OnLogin()

@@ -1,4 +1,6 @@
-namespace HT.Framework.HotfixDemo
+using HT.Framework;
+
+namespace HotfixDemo
 {
     /// <summary>
     /// 游戏界面
@@ -6,6 +8,8 @@ namespace HT.Framework.HotfixDemo
     [UIResource("ui", "Assets/Source_Hotfix/Prefabs/GamePanel.prefab", "GamePanel")]
     public class UIGame : UILogicResident
     {
+        protected override bool IsAutomate => false;
+
         /// <summary>
         /// 初始化
         /// </summary>

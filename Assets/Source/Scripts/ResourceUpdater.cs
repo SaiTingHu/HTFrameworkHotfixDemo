@@ -53,8 +53,7 @@ public class ResourceUpdater : SingletonBehaviourBase<ResourceUpdater>
 
             StringToolkit.BeginConcat();
             StringToolkit.Concat($"检测到新版本 <color=red>{version}</color>，更新日志：\r\n");
-            StringToolkit.Concat(notes);
-            StringToolkit.Concat("\r\n");
+            StringToolkit.Concat($"<color=cyan>{notes}</color>\r\n\r\n");
             StringToolkit.Concat($"需下载资源文件<color=red>{number}</color>个[<color=red>约{size}M</color>]，是否确认下载？");
             string content = StringToolkit.EndConcat();
 
@@ -176,6 +175,8 @@ public class ResourceUpdater : SingletonBehaviourBase<ResourceUpdater>
                 if (DeploymentConfig.Current.DownloadInfo.DownloadResult == UpdateResourceDownloadInfo.Result.Success)
                 {
                     SetProgress(1, "载入资源中，请稍等......");
+
+                    Host.gameObject.SetActive(false);
                 }
                 else
                 {
