@@ -1,0 +1,26 @@
+
+{
+    "Version" : "v1.0.0",
+    "Date"    : "2025.01.02",
+    "Metadatas" : [
+    ],
+    "Assemblys" : [
+        {
+            "Name" : "HotfixDemo",
+            "CRC"  : "F415FCF25C8063F9A8390018E1EDE281",
+            "Size" : 7
+        }
+    ],
+    "ABs"       : [
+        {
+            "Name" : "StandaloneWindows",
+            "CRC"  : "3582990971",
+            "Size" : 1
+        },
+        {
+            "Name" : "ui",
+            "CRC"  : "1069278928",
+            "Size" : 7
+        }
+    ]
+}

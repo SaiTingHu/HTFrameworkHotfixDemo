@@ -1,4 +1,7 @@
-namespace HT.Framework.Demo.Hotfix
+using HT.Framework.Deployment;
+using UnityEngine.UI;
+
+namespace HT.Framework.HotfixDemo
 {
     /// <summary>
     /// 登录界面
@@ -14,6 +17,13 @@ namespace HT.Framework.Demo.Hotfix
             base.OnInit();
 
             UIEntity.FindChildren("LoginButton").rectTransform().AddEventListener(OnLogin);
+        }
+
+        public override void OnOpen(params object[] args)
+        {
+            base.OnOpen(args);
+
+            UIEntity.FindChildren("Txt_Version").GetComponent<Text>().text = "当前资源版本：" + DeploymentConfig.Current.LocalVersion.Version;
         }
 
         private void OnLogin()

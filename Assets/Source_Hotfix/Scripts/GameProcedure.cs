@@ -1,4 +1,4 @@
-namespace HT.Framework.Demo.Hotfix
+namespace HT.Framework.HotfixDemo
 {
     /// <summary>
     /// 游戏流程

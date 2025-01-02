@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="HTFramework.RunTime">
+    <type fullname="HT.Framework.EventToolkit" preserve="all" />
+    <type fullname="HT.Framework.GlobalTools" preserve="all" />
+    <type fullname="HT.Framework.Main" preserve="all" />
+    <type fullname="HT.Framework.ProcedureBase" preserve="all" />
+    <type fullname="HT.Framework.ProcedureManager" preserve="all" />
+    <type fullname="HT.Framework.ReflectionToolkit" preserve="all" />
+    <type fullname="HT.Framework.UILogicBase" preserve="all" />
+    <type fullname="HT.Framework.UILogicResident" preserve="all" />
+    <type fullname="HT.Framework.UIManager" preserve="all" />
+    <type fullname="HT.Framework.UIResourceAttribute" preserve="all" />
+    <type fullname="HT.Framework.UIType" preserve="all" />
+  </assembly>
+  <assembly fullname="System">
+    <type fullname="System.CodeDom.Compiler.GeneratedCodeAttribute" preserve="all" />
+    <type fullname="System.ComponentModel.EditorBrowsableAttribute" preserve="all" />
+    <type fullname="System.ComponentModel.EditorBrowsableState" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule">
+    <type fullname="UnityEngine.Coroutine" preserve="all" />
+    <type fullname="UnityEngine.Events.UnityAction" preserve="all" />
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+  </assembly>
+  <assembly fullname="mscorlib">
+    <type fullname="System.Array" preserve="all" />
+    <type fullname="System.Byte" preserve="all" />
+    <type fullname="System.Diagnostics.DebuggableAttribute" preserve="all" />
+    <type fullname="System.Diagnostics.DebuggableAttribute/DebuggingModes" preserve="all" />
+    <type fullname="System.Object" preserve="all" />
+    <type fullname="System.Runtime.CompilerServices.CompilationRelaxationsAttribute" preserve="all" />
+    <type fullname="System.Runtime.CompilerServices.CompilerGeneratedAttribute" preserve="all" />
+    <type fullname="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute" preserve="all" />
+    <type fullname="System.Runtime.CompilerServices.RuntimeHelpers" preserve="all" />
+    <type fullname="System.RuntimeFieldHandle" preserve="all" />
+    <type fullname="System.ValueType" preserve="all" />
+  </assembly>
+</linker>
