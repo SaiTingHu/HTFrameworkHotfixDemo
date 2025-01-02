@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <linker>
+  <assembly fullname="HTFramework.Deployment.RunTime">
+    <type fullname="HT.Framework.Deployment.DeploymentConfig" preserve="all" />
+    <type fullname="HT.Framework.Deployment.DeploymentVersion" preserve="all" />
+  </assembly>
   <assembly fullname="HTFramework.RunTime">
     <type fullname="HT.Framework.EventToolkit" preserve="all" />
     <type fullname="HT.Framework.GlobalTools" preserve="all" />
@@ -7,6 +11,7 @@
     <type fullname="HT.Framework.ProcedureBase" preserve="all" />
     <type fullname="HT.Framework.ProcedureManager" preserve="all" />
     <type fullname="HT.Framework.ReflectionToolkit" preserve="all" />
+    <type fullname="HT.Framework.SingletonBehaviourBase`1" preserve="all" />
     <type fullname="HT.Framework.UILogicBase" preserve="all" />
     <type fullname="HT.Framework.UILogicResident" preserve="all" />
     <type fullname="HT.Framework.UIManager" preserve="all" />
@@ -24,17 +29,22 @@
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEngine.UI">
+    <type fullname="UnityEngine.UI.Text" preserve="all" />
+  </assembly>
   <assembly fullname="mscorlib">
     <type fullname="System.Array" preserve="all" />
     <type fullname="System.Byte" preserve="all" />
     <type fullname="System.Diagnostics.DebuggableAttribute" preserve="all" />
     <type fullname="System.Diagnostics.DebuggableAttribute/DebuggingModes" preserve="all" />
     <type fullname="System.Object" preserve="all" />
+    <type fullname="System.ParamArrayAttribute" preserve="all" />
     <type fullname="System.Runtime.CompilerServices.CompilationRelaxationsAttribute" preserve="all" />
     <type fullname="System.Runtime.CompilerServices.CompilerGeneratedAttribute" preserve="all" />
     <type fullname="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute" preserve="all" />
     <type fullname="System.Runtime.CompilerServices.RuntimeHelpers" preserve="all" />
     <type fullname="System.RuntimeFieldHandle" preserve="all" />
+    <type fullname="System.String" preserve="all" />
     <type fullname="System.ValueType" preserve="all" />
   </assembly>
 </linker>
